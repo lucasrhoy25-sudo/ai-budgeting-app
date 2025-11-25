@@ -98,7 +98,7 @@ function App() {
     setInsights([]);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/insights", {
+      const res = await fetch("https://ai-budgeting-app-0vpb.onrender.com/insights", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
